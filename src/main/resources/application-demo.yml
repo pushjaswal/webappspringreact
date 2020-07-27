@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: @spring.profiles.active@
+
+server:
+  port: 5000
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://webapp.c9ih7lmzrdht.us-west-1.rds.amazonaws.com:5432/webappdb
+    username: push
+    password: password
+    pool-size: 30
